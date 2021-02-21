@@ -22,16 +22,17 @@ You may find many other scripts to download a feed's content. However, this prog
 
 ## Getting the feed
 
-Overall, there are four types of feeds: Free, Basic, Premium feed, and My Feed. which features can be seen here:
+Overall, there are four types of feeds: Free, Basic, Premium feed, and My Feed. Their features can be seen here:
 
 [Overview](https://www.japanesepod101.com/helpcenter/getstarted/how-to-save-lessons/)
 [Free](https://www.japanesepod101.com/helpcenter/getstarted/how-to-save-lessons/#free)
 [Premium and Basic](https://www.japanesepod101.com/helpcenter/getstarted/itunesfeeds)
 [My Feed](https://www.japanesepod101.com/learningcenter/account/myfeed)
 
-**Replace *language* with your preferred language.**
+*Replace **'japanese'** with the language you want.
 
-Scrolling down, you will find Two buttons: *Basic Feed* and *Premium Feed*. Once you spot them, choose one of them, right click the button, and click *Copy link address*.
+
+To find the feeds links scroll down and you will find two buttons: *Basic Feed* and *Premium Feed*. Once you spot them, choose one of them, right click the button, and click *Copy link address*.
 For example, in japanesepod101.com, the link to the premium feed is this: itpc://www.japanesepod101.com/premium_feed/feed.xml.
 
 Next, replace *itpc* at the start with *https*: https://www.japanesepod101.com/premium_feed/feed.xml.
