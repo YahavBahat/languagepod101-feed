@@ -31,7 +31,7 @@ Overall, there are four types of feeds: Free, Basic, Premium feed, and My Feed. 
 Scrolling down, you will find Two buttons: *Basic Feed* and *Premium Feed*. Once you spot them, choose one of them, right click the button, and click *Copy link address*.
 For example, in japanesepod101.com, the link to the premium feed is this: itpc://www.japanesepod101.com/premium_feed/feed.xml.
 
-Next, replace *itpc* at the start with https: https://www.japanesepod101.com/premium_feed/feed.xml.
+Next, replace *itpc* at the start with *https*: https://www.japanesepod101.com/premium_feed/feed.xml.
 
 Using wget download the feed file:
 
