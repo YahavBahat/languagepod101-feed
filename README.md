@@ -1,4 +1,4 @@
-# LanguagePod101-Feed
+# Languagepod101-Feed
 
 ## About
 
