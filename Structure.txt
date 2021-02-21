@@ -1,0 +1,92 @@
+Structure:
+
+
+languagepod101
+    Lesson Level
+        Season
+            Lesson
+
+
+Example:
+
+
+japanesepod101
+├─ Absolute Beginner
+│  ├─ Season 1
+│  │  ├─ lesson 01
+│  │  │  ├─ part I
+│  │  │  ├─ part II
+│  │  │      ├─ Video
+│  │  │      ├─ Audio
+│  │  │      ├─ Lesson Notes
+│  │  ├─ lesson 02
+│  │  ├─ lesson 03
+│  │  │      ├─ Video
+│  │  │      ├─ Lesson Notes
+│  │  ├─ ...
+│  ├─ Season 2
+│  │  ├─ lesson 01
+│  │  ├─ lesson 02
+│  │  │      ├─ Video
+│  │  ├─ lesson 03
+│  │  ├─
+│      ...
+│   ...
+│
+...
+
+
+Explanation:
+
+    Terminology:
+
+    "-" - A string containing Roman numerals
+    "_" - A number
+
+    There are four strings or names which compose an entry's title which are hierarchically structured: Level, Season, Lesson, Part.
+
+    Let's take this entry: 'Absolute Beginner Season 1 S1 #12 - Can You Eat This Japanese Meatloaf? - Dialog'
+
+    Level name is the string before " S_", " Season _", ": ", or any number " _".
+    In this case, Level name is be 'Absolute Beginner'
+
+    Season name can be " S_", " S_ _", "Season _", and " _". or string beginning from ": " until " - ".
+    Season name comes after Level name.
+    In this case, Season name is be '1'
+
+    Lesson name is the string after Level or Season name, beginning from " #_" until a " - " separator.
+    In this case, Lesson name is be '#12 - Can You Eat This Japanese Meatloaf?'
+
+    Part name is the name after Lesson name. It can be either "Part -" or "Part _".
+    in this case, there is no Part name.
+
+    Type name is the name after the last separator (" - "), it can be "Audio", "Video", "Lesson Notes", "Dialog", and more.
+    Type names contains different content. For example "Lesson Notes" entries will contain a PDF file, while
+    "Audio" and "Video" entries will contain different media files.
+    In this case, the Type name is 'Dialog'
+
+    If the entry contains more than one type of content, e.g., (PDF, Video and Audio) without a Type name in its title,
+    we cannot distinguish between the types just by looking at the entry's title.
+    In that case, each type will get its own directory inside of the entry folder, where the entry's content will be downloaded.
+    For example:
+
+    Absolute Beginner Season 1 S1 #12 - Can You Eat This Japanese Meatloaf?
+    ├─ Audio
+    ├─ Video
+    ├─ PDF / Document
+
+    However, if the entry name does contain a Type name, a folder will be created for each Type name.
+    For example if we have those three entries:
+
+    Absolute Beginner Season 1 S1 #12 - Can You Eat This Japanese Meatloaf? - Dialog
+    Absolute Beginner Season 1 S1 #12 - Can You Eat This Japanese Meatloaf? - Video
+    Absolute Beginner Season 1 S1 #12 - Can You Eat This Japanese Meatloaf? - Lesson Notes
+
+    The final result will be:
+
+    Absolute Beginner
+    ├─ Season 1
+        ├─ Lesson #12 - Can You Eat This Japanese Meatloaf?
+            ├─ Dialog
+            ├─ Video
+            ├─ Lesson Notes
