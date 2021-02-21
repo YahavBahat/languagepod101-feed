@@ -2,7 +2,10 @@
 
 ## About
 
-LanguagePod101-feed is a Python-based downloader and viewer for languagepod101's feed's content. The tool can download the content's feed onto your computer, making it possible to watch the courses offline.
+Languagepod101's courses are produced and distributed by Innovative Language, who provides language learning courses from a selection of dozens of languages.
+The feed's content vary based on the type of the feed and it can be used to watch and view the course's content offline.
+
+LanguagePod101-feed is a Python-based downloader and viewer for languagepod101's feeds. The tool can download the content's feed onto your computer, making it possible to watch the courses offline.
 
 The script works on any languagepod101 feed, e.g., japanesepod101.com, spanishpod101.com. For more information, [visit](https://www.innovativelanguage.com/online-language-courses):
 
