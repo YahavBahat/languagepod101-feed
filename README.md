@@ -43,7 +43,7 @@ Using wget download the feed file:
 wget "https://www.japanesepod101.com/premium_feed/feed.xml" --user EMAIL --password PASSWORD
 ```
 
-**NOTE: The *user* and *password* arguments are only required for the Basic, Premium feeds, and my Feed.**
+**NOTE: The *user* and *password* arguments are only required for the Basic, Premium feeds, and My Feed.**
 
 # Example
 
