@@ -53,7 +53,7 @@ Next, execute the script:
 python3 CLI.py --root-url https://www.japanesepod101.com --download-path Japanesepod-101 --feed-path /Downloads/MyJapanesePremiumFeed.xml --content ALL --email EMAIL --password PASSWORD
 ```
 
-An example downloading the content of japanesepod101's premium feed to the folder *Japanesepod-101*. Downloads all types of content (Video, Audio, Document / PDF).
+An example downloading japanesepod101's premium feed to the folder *Japanesepod-101*. Downloads all types of content (Video, Audio, Document / PDF).
 
 
 python3 CLI.py --help
